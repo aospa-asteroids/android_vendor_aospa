@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/volcano.xml" />
+
+  <!-- Device Dependencies -->
+  <project path="device/nothing/asteroids" name="aospa-asteroids/android_device_nothing_asteroids" remote="aospa" />
+  <project path="kernel/nothing/sm7635" name="aospa-asteroids/android_kernel_nothing_sm7635" remote="aospa" />
+  <project path="kernel/nothing/sm7635-devicetrees" name="aospa-asteroids/android_kernel_nothing_sm7635-devicetrees" remote="aospa" />
+  <project path="kernel/nothing/sm7635-modules" name="aospa-asteroids/android_kernel_nothing_sm7635-modules" remote="aospa" />
+  <project path="vendor/nothing/asteroids" name="aospa-asteroids/proprietary_vendor_nothing_asteroids" remote="aospa" />
+</manifest>
